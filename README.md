@@ -1,4 +1,24 @@
 # Desafio Kanban
+## Instruções do desafio
+
+Você deve desenvolver uma API, utilizando Node.JS, e um projeto frontend,
+utilizando ReactJs para uma aplicação de quadro Kanban.
+A escolha das bibliotecas, arquitetura, etc, fica a seu critério, porém deverá ser
+utilizado como banco de dados o MongoDB
+
+## API
+
+A API precisa ser desenvolvida em Node.JS, e deverá ser possível: - Listar todas as
+tarefas. - Adicionar uma nova tarefa. - Alterar uma tarefa. - Deletar uma tarefa.
+
+## FRONTEND
+
+O frontend precisa ser construído com ReactJs, e deverá ser possível:
+ - Listar as tarefas separadas por status(pending, in progress, testing, done)
+ - Componente para adicionar nova tarefa
+ - Editar tarefa
+ - Mudar o status de uma tarefa
+ - Deletar tarefa
 
 # Começando com Create React App
 
@@ -34,25 +54,3 @@ Você também pode ver erros de lint no console.
 Você pode aprender mais na [documentação Criar aplicativo React](https://facebook.github.io/create-react-app/docs/getting-started).
 
 Para aprender o React, confira a [documentação do React](https://reactjs.org/).
-
-## Instruções do desafio
-
-Você deve desenvolver uma API, utilizando Node.JS, e um projeto frontend,
-utilizando ReactJs para uma aplicação de quadro Kanban.
-A escolha das bibliotecas, arquitetura, etc, fica a seu critério, porém deverá ser
-utilizado como banco de dados o MongoDB
-
-## API
-
-A API precisa ser desenvolvida em Node.JS, e deverá ser possível: - Listar todas as
-tarefas. - Adicionar uma nova tarefa. - Alterar uma tarefa. - Deletar uma tarefa.
-
-## FRONTEND
-
-O frontend precisa ser construído com ReactJs, e deverá ser possível:
- - Listar as tarefas separadas por status(pending, in progress, testing, done)
- - Componente para adicionar nova tarefa
- - Editar tarefa
- - Mudar o status de uma tarefa
- - Deletar tarefa
-
