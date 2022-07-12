@@ -40,14 +40,14 @@ A página será recarregada quando você fizer alterações.\
 Você também pode ver erros de lint no console.
 
 ### Server
- - Executar o comando npm i para instalar as dependências
+ - Executar o comando `npm i` para instalar as dependências
  - Criar o arquivo .env e atualizar as variaveis de ambiente.
   - Exemplo:\
    PORT=5000\
    MONGODB_URL=mongodb://127.0.0.1:27017/kanban-app \
    PASSWORD_SECRET_KEY=esdrasSDASD#81719 \
    TOKEN_SECRET_KEY=ockas@SSSNCA$1231 \
- - Executar o comando npm start para rodar o servidor
+ - Executar o comando `npm start` para rodar o servidor
 
 ## Saiba mais
 
