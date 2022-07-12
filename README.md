@@ -23,28 +23,17 @@ Inicia o executor de teste no modo de exibição interativa.\
 Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
 
 ### Server
+### Clonar o repositório
+ - Executar o comando npm i para instalar as dependências
+ - Criar o arquivo .env e atualizar as variaveis de ambiente.
+  - Exemplo:
+   PORT=5000
+   MONGODB_URL=mongodb://127.0.0.1:27017/kanban-app
+   PASSWORD_SECRET_KEY=esdrasSDASD#81719
+   TOKEN_SECRET_KEY=ockas@SSSNCA$1231
+ - Executar o comando npm start para rodar o servidor
 
-### `npm executar compilação`
-
-Compila o aplicativo para produção na pasta `build`.\
-Ele agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
-
-A compilação é reduzida e os nomes dos arquivos incluem os hashes.\
-Seu aplicativo está pronto para ser implantado!
-
-Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
-
-### `npm run eject`
-
-**Nota: esta é uma operação unidirecional. Depois de 'ejetar', você não pode voltar!**
-
-Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, você pode `ejetar` a qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
-
-Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc) diretamente em seu projeto para que você tenha controle total sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão, mas eles apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto você está por conta própria.
-
-Você não precisa usar `eject`. O conjunto de recursos com curadoria é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estiver pronto para isso.
-
-## Saber mais
+## Saiba mais
 
 Você pode aprender mais na [documentação Criar aplicativo React](https://facebook.github.io/create-react-app/docs/getting-started).
 
